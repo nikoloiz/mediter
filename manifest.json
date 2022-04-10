@@ -1,0 +1,16 @@
+{
+  "name": "The Brookvale Bulletin",
+  "short_name": "Bulletin",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.jpg",
+      "type": "image/jpeg",
+    },
+    }
+  ]
+}
