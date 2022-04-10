@@ -1,6 +1,6 @@
 {
-  "name": "The Brookvale Bulletin",
-  "short_name": "Bulletin",
+  "name": "Meditér",
+  "short_name": "Meditér",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
