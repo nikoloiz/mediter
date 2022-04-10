@@ -1,0 +1,64 @@
+body {
+  font-family: courier;
+  background-color: lemonchiffon;
+  text-align: center;
+}
+
+a {
+  background: teal;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+@keyframes example {
+  0% {
+    transform: scale(.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+  25% {
+    background-color: gray;
+  }
+  50% {
+    transform: scale(1.5);
+    background-color: lightgray;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+     transform: scale(.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+}
+
+.buttonplay {
+  border-radius: 10px;
+  background-color: white;
+}
+
+div {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+body {
+  font-family: courier;
+  background-color: lemonchiffon;
+  text-align: center;
+}
+
+a {
+  padding: 2px;
+  background: teal;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
