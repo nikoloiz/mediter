@@ -1,6 +1,6 @@
 {
-  "name": "Meditér",
-  "short_name": "Meditér",
+  "name": "Mediter",
+  "short_name": "Mediter",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
