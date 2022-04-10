@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='styles2.css'>
+<script>
+</script>
+</head>
+<body>
+  <audio id="myAudio">
+  <source src='https://static1.squarespace.com/static/59dcec2112abd985b7417cbd/t/5fbb9b43c5d58d0b1f065655/1606130530026/Afterlife+-+320bit.mp3/original/Afterlife+-+320bit.mp3' type="audio/mpeg">
+Your browser does not support audio playback, consider updating!
+</audio>
+<script>
+function playsound() {
+  var x = document.getElementById("myAudio");
+  x.play();
+}
+function pausesound() {
+  var x = document.getElementById("myAudio");
+  x.pause();
+}
+x.play();
+</script>
+<h2><u>Sleep Music</u></h2>
+<h6>Music by <a href="https://soundcloud.com/serpentsoundstudios/fall-asleep" target='_blank'>Alexander Nakerada</a> on Soundcloud</h6>
+<h4>Perfect if you struggle with falling asleep, or are doing meditation.</h4>
+<br><br><br><br>
+<button class='buttonplay' onclick='playsound()'><i class="fa fa-play" aria-hidden="true" id='buttonplay'></i></button>
+<button class='buttonplay' onclick='pausesound()'><i class="fa fa-pause" aria-hidden="true" id='buttonplay'></i></button>
+<br><br><br><br><br><br><br><br><br>
+<a href='choose.html'>Back</a>
+</body>
+</html>
